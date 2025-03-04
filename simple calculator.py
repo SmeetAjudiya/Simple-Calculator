@@ -43,6 +43,7 @@ while True:
         next_calculation = input("Want to do another calculation? Yes/No: ")
 
         if next_calculation == 'no':
+            print("Exiting Calcuator !!!")
             break
     else:
         print("Invalid Input")
